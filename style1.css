@@ -69,7 +69,7 @@ body{
 }
 
 .anime{
-	animation: rotate_me 50s linear infinite;
+	animation: rotate_me 60s linear infinite;
 }
 
 @keyframes rotate_me{
