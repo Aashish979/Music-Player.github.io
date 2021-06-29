@@ -116,14 +116,14 @@ songIndex =0 ;
 const nextSong = ()=>{
 	songIndex=(songIndex + 1)% songs.length;
 	loadSong(songs[songIndex]);
-	img.classList.add('anime');
+	
 	playMusic();
 };
 
 const preSong = ()=>{
 	songIndex=(songIndex - 1 + songs.length) % songs.length;
 	loadSong(songs[songIndex]);
-	img.classList.add('anime');
+	
 	playMusic();
 };
 
