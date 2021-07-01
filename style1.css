@@ -3,44 +3,49 @@ body{
 
 }
 
-
-.card{
-	border-radius: 4%;
-	box-shadow: 0 0px 20px black!important;
-	
-
-
+.container{
+	height: 100vh!important;
+	width: 100vw!important;
 
 }
 
-.img-style{
+
+.card{
+	border-radius: 20px;
+	box-shadow: 0 0px 20px black!important;
+
+	}
+
+img{
 	border-radius: 50%;
 	height:100%;
 	width: 100%;
 	margin: 15px 0;
-	box-shadow: 0 2px 18px black;
-	object-fit: cover;
+	box-shadow: 0 0 10px black;
+	
+	
 	
 }
 
 .img-container{
-	height: 220px;
-	width: 220px;
+	height: 250px;
+	width: 250px;
 	margin: auto;
+
 }
 
 .music_control{
-	width: 160px;
+	width: 200px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin: auto;
-	margin-top: 55px; 
+	margin-top: 53px; 
 }
 
 .music_control .fas{
 	color: #111111;
-	font-size: 16px;
+	font-size: 20px;
 	cursor: pointer;
 	filter: drop-shadow(0 0 8px black);
 }
@@ -48,11 +53,11 @@ body{
 
 .music_control .main-button{
 	border-radius: 50%;
-	height: 46px;
-	width: 46px;
+	height: 50px;
+	width: 50px;
 	background-color: #111;
 	color: #f6f6f6;
-	font-size: 13px;
+	font-size: 14px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -69,7 +74,7 @@ body{
 }
 
 .anime{
-	animation: rotate_me 60s linear infinite;
+	animation: rotate_me 150s linear infinite;
 }
 
 @keyframes rotate_me{
@@ -89,6 +94,10 @@ body{
 		margin:0 auto;
 	}
 }
+
+
+
+
 
 
 
