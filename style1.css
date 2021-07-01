@@ -88,12 +88,6 @@ img{
 } 
 
 
-/*Responsive*/
-@media (max-width: 768px){
-	.row{
-		margin:0 auto;
-	}
-}
 
 
 
