@@ -81,12 +81,15 @@
 
 let isPlaying=false;
 
+
 //for Play functionality
 const playMusic= () => {
 	isPlaying = true;
 	music.play();
 	play.classList.replace("fa-play","fa-pause");
 	img.classList.add('anime');
+	
+	
 };
 
 //for Pause functionality 
@@ -95,6 +98,7 @@ const pauseMusic= () => {
 	music.pause();
 	play.classList.replace("fa-pause","fa-play");
 	img.classList.remove('anime');
+	
 };
 
 play.addEventListener('click', () =>{
@@ -116,14 +120,13 @@ songIndex =0 ;
 const nextSong = ()=>{
 	songIndex=(songIndex + 1)% songs.length;
 	loadSong(songs[songIndex]);
-	
 	playMusic();
+
 };
 
 const preSong = ()=>{
 	songIndex=(songIndex - 1 + songs.length) % songs.length;
 	loadSong(songs[songIndex]);
-	
 	playMusic();
 };
 
