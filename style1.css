@@ -13,10 +13,7 @@ body{
 .card{
 	border-radius: 20px;
 	box-shadow: 0 0px 20px black!important;
-	Position:absolute!important;
-Top:50%!important;
-Left:50%!important;
-Transform : translate (-50%,-50%)!important;
+	
 	
 
 	}
