@@ -4,17 +4,18 @@ body{
 }
 
 .container{
-	height: 100vh!important;
-	width: 100vw!important;
+	height:100vh!important;
+
+	width:100vw!important;
+	
 
 }
+
 
 
 .card{
 	border-radius: 20px;
 	box-shadow: 0 0px 20px black!important;
-	
-	
 
 	}
 
@@ -89,8 +90,14 @@ img{
 
 } 
 
+/*responsive*/
+@media (max-width: 1200px){
+	.card{
+		margin:0px auto;
+	}
 
-
+	
+}
 
 
 
